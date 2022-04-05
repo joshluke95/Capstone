@@ -1,8 +1,9 @@
 package co.za.mycput.Entity;
-/*
-    Author: Tshimanga Marco (219049505)
-
- */
+/* Customer.java
+ Entity for the Customer
+ Author: Marco Mulondayi Tshimanga (219049505)
+ Date: 04 April 2022
+*/
 public class Customer {
     private int id;
     private String custFirstName;
