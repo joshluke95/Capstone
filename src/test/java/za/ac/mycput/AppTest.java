@@ -1,4 +1,4 @@
-package co.za.mycput;
+package za.ac.mycput;
 
 import static org.junit.Assert.assertTrue;
 

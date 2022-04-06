@@ -1,4 +1,4 @@
-package co.za.mycput.Entity;
+package za.ac.mycput.Entity;
 /* Customer.java
  Entity for the Customer
  Author: Marco Mulondayi Tshimanga (219049505)
