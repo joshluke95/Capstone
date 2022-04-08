@@ -9,7 +9,9 @@ package za.ac.mycput.Factory;
 import za.ac.mycput.Entity.Driver;
 
 public class DriverFactory {
-    public static Driver createDriver(int driverId, String driverFirstName, String driverLastName,
+    public static Driver createDriver(int driverId,
+                                      String driverFirstName,
+                                      String driverLastName,
                                       String driverPhoneNumber)
     {
         Driver driver = new Driver.BuilderDriver()

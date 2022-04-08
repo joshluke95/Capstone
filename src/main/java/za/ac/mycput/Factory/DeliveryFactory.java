@@ -9,7 +9,9 @@ package za.ac.mycput.Factory;
 import za.ac.mycput.Entity.Delivery;
 
 public class DeliveryFactory {
-    public static Delivery createDelivery(int deliveryId, String deliveryAddress, String deliveryDate)
+    public static Delivery createDelivery(int deliveryId,
+                                          String deliveryAddress,
+                                          String deliveryDate)
     {
         Delivery delivery = new Delivery.BuilderDelivery()
                 .setDeliveryId(deliveryId)
