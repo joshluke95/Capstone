@@ -9,7 +9,7 @@ package za.ac.mycput.Factory;
 import za.ac.mycput.Entity.Delivery;
 
 public class DeliveryFactory {
-    public static Delivery createDelivery(int deliveryId,
+    public static Delivery createDelivery(String deliveryId,
                                           String deliveryAddress,
                                           String deliveryDate)
     {
