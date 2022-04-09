@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class DriverFactoryTest {
     @Test
     public void test(){
-        Driver driver = DriverFactory.createDriver(214234169, "Joshua","Retief",
+        Driver driver = DriverFactory.createDriver("214234169", "Joshua","Retief",
                 "064 683 0785");
         System.out.println(driver.toString());
         assertNotNull(driver);

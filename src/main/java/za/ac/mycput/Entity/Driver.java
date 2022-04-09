@@ -7,7 +7,7 @@
 package za.ac.mycput.Entity;
 
 public class Driver {
-    public int driverId;
+    public String driverId;
     public String driverFirstName;
     public String driverLastName;
     public String driverPhoneNumber;
@@ -22,9 +22,7 @@ public class Driver {
     }
 
     //Getters
-    public int getDriverId() {
-        return driverId;
-    }
+    public String getDriverId() {return driverId; }
 
     public String getDriverFirstName() {
         return driverFirstName;
@@ -39,7 +37,7 @@ public class Driver {
     }
 
     //Setters
-    public void setDriverId(int driverId) {
+    public void setDriverId(String driverId) {
         this.driverId = driverId;
     }
 
@@ -65,14 +63,13 @@ public class Driver {
                 '}';
     }
 
-
     public static class BuilderDriver{
-        public int driverId;
+        public String driverId;
         public String driverFirstName;
         public String driverLastName;
         public String driverPhoneNumber;
 
-        public BuilderDriver setDriverId(int driverId) {
+        public BuilderDriver setDriverId(String driverId) {
             this.driverId = driverId;
             return this;
         }

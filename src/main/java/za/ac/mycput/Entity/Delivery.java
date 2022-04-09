@@ -8,7 +8,7 @@ package za.ac.mycput.Entity;
 
 public class Delivery {
 
-    public int deliveryId;
+    public String  deliveryId;
     public String deliveryAddress;
     public String deliveryDate;
 
@@ -21,7 +21,7 @@ public class Delivery {
     }
 
     //Getters
-    public int getDeliveryId() {
+    public String getDeliveryId() {
         return deliveryId;
     }
 
@@ -34,7 +34,7 @@ public class Delivery {
     }
 
     //Setters
-    public void setDeliveryId(int deliveryId) {
+    public void setDeliveryId(String deliveryId) {
         this.deliveryId = deliveryId;
     }
 
@@ -56,12 +56,12 @@ public class Delivery {
     }
 
     public static class BuilderDelivery{
-        public int deliveryId;
+        public String deliveryId;
         public String deliveryAddress;
         public String deliveryDate;
 
 
-        public BuilderDelivery setDeliveryId(int deliveryId) {
+        public BuilderDelivery setDeliveryId(String deliveryId) {
             this.deliveryId = deliveryId;
             return this;
         }

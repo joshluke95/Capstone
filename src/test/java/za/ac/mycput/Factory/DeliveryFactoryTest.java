@@ -15,7 +15,7 @@ public class DeliveryFactoryTest {
     @Test
     public void test(){
         Delivery delivery = new Delivery.BuilderDelivery()
-                .setDeliveryId(94301285)
+                .setDeliveryId("94301285")
                 .setDeliveryAddress("463 Crip Walk")
                 .setDeliveryDate("8 April 2022")
                 .build();
