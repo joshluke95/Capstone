@@ -4,7 +4,7 @@
    Date: 09 April 2022
  */
 
-package za.ac.mycput.Repository.customer.impl;
+package za.ac.mycput.Repository.driver;
 
 public class DriverRepository {
 }
