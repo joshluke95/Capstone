@@ -16,14 +16,9 @@ public class EmployeeFactoryTest
     @Test
     public void test()
     {
-        Employee employee = new Employee.Builder()
-                .setEmpFirstName("Devon")
-                .setEmpLastName("May")
-                .setEmpPhoneNumber("0662686800")
-                .setEmpRole("Driver")
-                .setEmpID("01")
-                .build();
-        System.out.println(employee);
+        Employee employee = EmployeeFactory.createEmployee("Devon",
+                "May","0662686800","Driver","01");
+        System.out.println(employee.toString());
         assertNotNull(employee);
     }
 }
