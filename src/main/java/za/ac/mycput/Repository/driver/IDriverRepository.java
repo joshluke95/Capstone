@@ -7,6 +7,8 @@
 package za.ac.mycput.Repository.driver;
 
 import za.ac.mycput.Entity.Driver;
+import za.ac.mycput.Repository.IRepository;
+
 import java.util.Set;
 
 public interface IDriverRepository extends IRepository<Driver, String>
