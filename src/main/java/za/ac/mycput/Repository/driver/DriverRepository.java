@@ -61,11 +61,10 @@ public class DriverRepository implements IDriverRepository
 
     @Override
     public boolean delete(String driverId) {
-        for (Driver deleteDriver : driverDB)
-            if (deleteDriver.driverId.equals(driverId))
-            {
-                return false;
-            }
+        Driver driverToDelete = read(driverId);
+        if(driverToDelete == null)
+            return false;
+        driverDB.remove(driverToDelete);
         return true;
     }
 
